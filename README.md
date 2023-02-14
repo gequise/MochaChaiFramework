@@ -28,3 +28,10 @@ yarn install
 ```bash
 yarn run test
 ```
+
+## Run Report
+
+```bash
+mocha test/ --report spec
+
+```

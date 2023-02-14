@@ -4,7 +4,11 @@
   "description": "This a simple example",
   "main": "main.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/_mocha"
+    "test": "node ./node_modules/mocha/bin/_mocha",
+    "report-spec": "mocha test/ --reporter spec",
+    "report-dot": "mocha test/ --reporter dot",
+    "report-nyan": "mocha test/ --reporter nyan ",
+    "report-json": "mocha test/ --reporter json"
   },
   "keywords": [
     "mocha",

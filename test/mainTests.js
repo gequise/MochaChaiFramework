@@ -1,6 +1,6 @@
 var assert = require("assert");
 
-describe.skip("Mathematical Operations -  Test Suite", function () {
+describe("Mathematical Operations -  Test Suite", function () {
   this.timeout(5000);
 
   var a = 10;
