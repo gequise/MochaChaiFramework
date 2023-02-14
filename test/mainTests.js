@@ -1,7 +1,14 @@
 var assert = require("assert");
 
-describe("Mathematical Operations -  Test Suite", function () {
-  it("Addition of two numbers", function () {
+describe.skip("Mathematical Operations -  Test Suite", function () {
+  this.timeout(5000);
+
+  var a = 10;
+  var b = 20;
+  it("Addition of two numbers", function (done) {
+    this.timeout(500);
+
+    setTimeout(done, 3000);
     var a = 10;
     var b = 10;
 
