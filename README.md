@@ -1,5 +1,7 @@
 # 🍵☕ [Mocha](https://mochajs.org/)
 
+# ©️ [CHAI](https://www.chaijs.com/)
+
 Design Page Objects and run Tests using Mocha
 
 ### Run application
