@@ -44,4 +44,13 @@ expect(numbers).to.be.an('array').that.includes(3);
 numbers.should.be.an('array').that.includes(3);
 assert.isArray(numbers, 'number is not an array');
 
-// should()
+// should extras
+// should -> Object.Prototype - a.should
+// existence of an object
+function writeToAFile(error) {
+  // error.should.not.exist();
+
+  should.not.exist(error);
+}
+
+writeToAFile(undefined);
